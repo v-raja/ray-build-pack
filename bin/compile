@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# bin/compile <build-dir> <cache-dir> <env-dir>
+
+BUILD_DIR=$1
+CACHE_DIR=$2
+
+# Install Ray
+pip install "ray[default,serve]<2.7.0"
+
+# Your additional build steps here...

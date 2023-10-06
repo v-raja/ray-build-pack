@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# bin/detect <build-dir>
+
+# Always apply this buildpack
+exit 0
