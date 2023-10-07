@@ -6,6 +6,6 @@ BUILD_DIR=$1
 CACHE_DIR=$2
 
 # Install Ray
-pip install "ray[default,serve]<2.7.0"
+pip install "ray[default,serve]<2.7.0" boto3
 
 # Your additional build steps here...
